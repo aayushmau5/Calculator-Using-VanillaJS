@@ -1,0 +1,84 @@
+.container {
+    background: black;
+    width: 334px;
+    height: 395px;
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+}
+
+.window {
+    width: 100%;
+    height: 55px;
+}
+
+.row-1 {
+    font-size: 0;
+}
+
+button {
+    width: 83px;
+    height: 68px;
+    margin: 0;
+    position: relative;
+}
+
+#clear,
+#zero {
+    width: 166px;
+}
+
+#equal {
+    right: 7px;
+    height: 135px;
+    position: absolute;
+}
+
+.numbers {
+    outline: 1px solid black;
+    border: none;
+    background: #4d4d4d;
+    color: white;
+}
+
+.operator {
+    outline: 1px solid black;
+    border: none;
+    background: #666666;
+    color: white;
+}
+
+.clearValue {
+    outline: 1px solid black;
+    border: none;
+    background: #ac3939;
+    color: white;
+}
+
+.equality {
+    outline: 1px solid black;
+    border: none;
+    background: #004466;
+    color: white;
+}
+
+button:hover {
+    color: black;
+    outline: 0.5px solid grey;
+    z-index: 3;
+}
+
+.history {
+    width: 100%;
+    color: orange;
+    height: 20px;
+    text-align: right;
+}
+
+.result {
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    height: 35px;
+    text-align: right;
+}
